@@ -19,7 +19,7 @@ while ($i <= $a) {
   if ($i % 3 == 0 || $i % 5 == 0) {
     $sum = $i + $sum;
   }
-  $i = $i + 1;
+  $i++;
 }
 echo $sum
 
